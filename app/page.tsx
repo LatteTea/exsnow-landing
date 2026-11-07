@@ -31,7 +31,7 @@ export default function Page() {
         {/* Placeholder untuk elemen gambar/video di tengah teks */}
         <div className="relative aspect-square w-64 md:w-96 md:h-56 my-[-2rem] z-0 rotate-2 shadow-2xl overflow-hidden rounded-md border-4 border-white">
            <Image
-              src="/logo-exsnow.png"
+              src="/image/logo-exsnow.png"
               alt="Ex-Snow Community"
               fill
               className="object-cover"
@@ -56,13 +56,16 @@ export default function Page() {
       <section className="bg-black text-white py-32 px-6 md:px-12 flex items-center justify-center text-center">
         <p className="text-2xl md:text-5xl max-w-5xl font-serif leading-tight text-gray-200">
           Selamat datang di rumah baru kita. Exceed bukan sekadar nama, tapi mindset. Komunitas ini dibangun dari nol oleh player-player aktif buat jadi wadah di mana kita bisa main lepas, tryhard bareng, dan nembus limit tanpa ditahan aturan kaku.
+            <br/>
+            _________________________________
+            Welcome to our new home. Exceed isn't just a name, it's a mindset. This community was built from the ground up by active players to be a space where we can play freely, tryhard together, and push past our limits without being held back by rigid rules.
         </p>
       </section>
 
       {/* 4. Horizontal Media Strip (Colorful Divider) */}
       <section className="relative w-full h-32 md:h-64 bg-black flex items-center justify-center overflow-hidden">
         <video
-          src="/my.mp4"
+          src="/image/my.mp4"
           autoPlay
           loop
           muted
@@ -71,7 +74,7 @@ export default function Page() {
         />
 
         <div className="relative z-10 text-white font-black text-3xl md:text-5xl uppercase tracking-widest animate-pulse">
-          Ajis Homo
+          Ex-Snow Community
         </div>
       </section>
 
@@ -83,13 +86,13 @@ export default function Page() {
         {/* Kotak 1: Teks Tipografi Besar (Tanpa Gambar, Biarkan sebagai penyeimbang) */}
         <div className="aspect-square bg-black flex flex-col items-center justify-center text-white p-8 border-r border-b border-gray-900">
           <span className="text-xl md:text-2xl font-bold uppercase tracking-widest text-gray-400 mb-2">We Are</span>
-          <span className="text-5xl md:text-7xl font-black uppercase tracking-tighter">Sigma</span>
+          <span className="text-5xl md:text-7xl font-black uppercase tracking-tighter">Exceed</span>
         </div>
 
         {/* Kotak 2: Style "Framed/Card" (Gambar di dalam bingkai melengkung) */}
         <div className="aspect-square bg-[#1a1a1a] p-8 md:p-12 flex items-center justify-center border-r border-b border-gray-900">
           <div className="w-full h-full bg-gray-800 rounded-[2rem] border-8 border-gray-700 shadow-2xl relative overflow-hidden group">
-            <Image src="/BG_CS_PV4_062.jpg" alt="Kegiatan 1" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+            <Image src="/image/BG_CS_PV4_062.jpg" alt="Kegiatan 1" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
             {/* Teks melayang saat di-hover */}
             <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                 <span className="text-white font-bold tracking-widest uppercase">Raid Season</span>
@@ -99,14 +102,14 @@ export default function Page() {
         
         {/* Kotak 3: Style "Full Bleed" (Gambar penuh tanpa batas dengan filter grayscale) */}
         <div className="relative aspect-square border-b border-gray-900 overflow-hidden group">
-            <Image src="/Himari_(Battle).png" alt="Kegiatan 2" fill className="object-cover grayscale group-hover:grayscale-0 transition-all duration-500" />
+            <Image src="/image/Himari_(Battle).png" alt="Kegiatan 2" fill className="object-cover grayscale group-hover:grayscale-0 transition-all duration-500" />
         </div>
 
 
         {/* === ROW 2 === */}
         {/* Kotak 4: Style "Duotone/Tinted" (Gambar penuh dengan lapisan warna di atasnya) */}
         <div className="relative aspect-square border-r border-b border-gray-200 overflow-hidden">
-          <Image src="/Mimori_(Swimsuit).jpg" alt="Kegiatan 3" fill className="object-cover" />
+          <Image src="/image/Mimori_(Swimsuit).jpg" alt="Kegiatan 3" fill className="object-cover" />
           <div className="absolute inset-0 bg-blue-900/60 mix-blend-multiply"></div>
           <div className="absolute bottom-6 left-6 text-white font-black text-4xl uppercase">EX-Snow</div>
         </div>
@@ -118,14 +121,14 @@ export default function Page() {
         
         {/* Kotak 6: Style "Zoom on Hover" (Gambar penuh standar) */}
         <div className="relative aspect-square border-b border-gray-200 overflow-hidden group">
-          <Image src="/Mo_CH0274_01.png" alt="Kegiatan 4" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+          <Image src="/image/Mo_CH0274_01.png" alt="Kegiatan 4" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
 
 
         {/* === ROW 3 === */}
         {/* Kotak 7: Teks Inisial Besar dengan Gambar Background Samar */}
         <div className="relative aspect-square bg-black flex items-center justify-center border-r border-gray-900 overflow-hidden">
-          <Image src="/ba-shiroko.png" alt="Kegiatan 5" fill className="object-cover opacity-30" />
+          <Image src="/image/ba-shiroko.png" alt="Kegiatan 5" fill className="object-cover opacity-30" />
           <span className="relative z-10 text-[20vw] md:text-[12vw] font-black text-white mix-blend-overlay">EX</span>
         </div>
         
@@ -133,7 +136,7 @@ export default function Page() {
         <div className="aspect-square bg-gray-200 flex items-center justify-center p-8 md:p-16 border-r border-gray-300">
            <div className="w-full h-full bg-white p-4 pb-12 shadow-2xl relative flex flex-col justify-between">
               <div className="relative w-full h-full">
-                <Image src="/logo-exsnow.png" alt="Kegiatan 6" fill className="object-cover" />
+                <Image src="/image/logo-exsnow.png" alt="Kegiatan 6" fill className="object-cover" />
               </div>
               <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-black font-bold text-sm uppercase tracking-widest">
                  EX-Snow
@@ -180,7 +183,7 @@ export default function Page() {
       <section className="relative text-black pt-20 pb-24 px-4 flex flex-col items-center justify-center text-center overflow-hidden min-h[50vh]">
         {/*Background Element*/}
         <Image
-              src="/bg-bt.png"
+              src="/image/bg-bt.png"
               alt="Ex-Snow Community"
               fill
               className="object-cover absolute inset-0 z-0"
